@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lenses</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+  .nav_bar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+  }
+</style>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div>
+    <div class="text-center nav_bar">
+      <a href="#" style="margin:0px 5px;border-radius: 100%;width: 60px; height: 60px; display:inline-block;background-color:grey;border:4px solid goldenrod;"></a>
+      <a href="#" style="margin:0px 5px;border-radius: 100%;width: 60px; height: 60px; display:inline-block;background-color:pink;"></a>
+      <a href="#" style="margin:0px 5px;border-radius: 100%;width: 60px; height: 60px; display:inline-block;background-color:brown;"></a>
+      <a href="#" style="margin:0px 5px;border-radius: 100%;width: 60px; height: 60px; display:inline-block;background-color:blue;"></a>
+      <a href="#" style="margin:0px 5px;border-radius: 100%;width: 60px; height: 60px; display:inline-block;background-color:green;"></a>
+    </div>
+  </div>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <a href="./img/placeholder.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="./img/placeholder.png" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form action="http://localhost:7000" method="POST">
+          <div class="modal-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+      </form>
+
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
